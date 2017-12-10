@@ -7,7 +7,7 @@
     let randomEmotions = emotions[emotionRandomIndex]
     
     //generate random activities
-    let randomActivityIndex = Int(arc4random_uniform(UInt32(activities.count)))
+    let randomActivityIndex = Int(arc4random_uniform(UInt32(activities.coun
     let randomActivity = activities[randomActivityIndex]
     
     //Modify the label
